@@ -1,0 +1,125 @@
+.info_container {
+    width: 100%;
+    margin: 6rem 0 20rem 0;
+}
+
+.info_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_text {
+    width: 700px;
+}
+
+.info_text h2 {
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.info_text p {
+    font-family: 'Graphik';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 140%;
+    margin-top: 1rem;
+}
+
+.info_cta {
+    margin-top: 4.375rem;
+}
+
+.info_cta a {
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    font-family: 'Graphik';
+    background: var(--green);
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 4.375rem;
+}
+
+.info_image {
+    max-width: 650px;
+}
+
+.flow_pattern {
+    position: absolute;
+    width: 120%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1024px) {
+    .info_wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info_text {
+        width: 100%;
+    }
+    .info_image {
+        max-width: 60%;
+        margin-bottom: 3rem;
+    }
+    .info_text {
+        order: 2;
+    }
+    .info_image {
+        order: 1;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .info_container {
+        width: 100%;
+        margin: 3rem 0 10rem 0;
+    }
+
+    .info_wrapper {
+        justify-content: space-between;
+    }
+
+    .info_text h2 {
+        font-size: 32px;
+        line-height: 130%;
+    }
+    .info_text {
+        order: 2;
+    }
+
+    .info_text p {
+        font-size: 18px;
+        line-height: 140%;
+    }
+
+    .info_cta a {
+        padding: 0.75rem 2rem;
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .info_cta {
+        margin-top: 3rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .info_image {
+        max-width: 100%;
+        margin-bottom: 2rem;
+        order: 1;
+    }
+}

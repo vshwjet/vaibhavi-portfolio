@@ -1,0 +1,151 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid green; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+:root {
+  --green: #10664F;
+}
+
+.width {
+  max-width: 1440px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F9F8F8;
+  padding: 0 4rem;
+}
+
+.info-main {
+  background: #FFFFFF;
+  position: relative;
+}
+
+.work-main {
+  background: #F9F8F8;
+  position: relative;
+}
+.cta-main {
+  background: #FFFFFF;
+  position: relative;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/Graphik-Regular-Trial.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/Graphik-RegularItalic-Trial.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/Graphik-Medium-Trial.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/Graphik-MediumItalic-Trial.otf');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/Graphik-Semibold-Trial.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/Graphik-SemiboldItalic-Trial.otf');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/Graphik-Bold-Trial.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/Graphik-BoldItalic-Trial.otf');
+  font-weight: 700;
+  font-style: italic;
+}
+  
+
+@font-face {
+  font-family: "Recoleta";
+  src: url('../assets/fonts/recoleta/Recoleta-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url('../assets/fonts/recoleta/Recoleta-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url('../assets/fonts/recoleta/Recoleta-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url('../assets/fonts/recoleta/Recoleta-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 1024px) {
+  section {
+    padding: 0 24px;
+  }
+}
