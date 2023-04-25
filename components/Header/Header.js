@@ -22,10 +22,10 @@ function Header() {
         <div className={`${styles.navigation} ${showMenu ? `${styles.bring_menu}` : ""}`}>
             <ul>
               <li>
-                <Link href="/">about</Link>
+                <Link href="/about">about</Link>
               </li>
               <li>
-                <Link href="/">work</Link>
+                <Link href="/work">work</Link>
               </li>
               <li>
                 <Link href="/">contact</Link>
