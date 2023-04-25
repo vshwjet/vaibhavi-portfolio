@@ -6,6 +6,19 @@ import Info from '../components/Info/Info';
 import Work from '../components/Work/Work';
 import Cta from '../components/CTA/Cta';
 import Footer from '../components/Footer/Footer';
+import { MongoClient } from 'mongodb';
+
+export async function getStaticProps(context) {
+
+  const mongoClient =  new MongoClient('mongodb+srv://vaibhaviportfolio:1JyDN06JZaL154DY@cluster0.jyulll4.mongodb.net/?retryWrites=true&w=majority');
+  const data = await mongoClient.db('vaibhavi').collection('work').find({}).toArray;
+
+  console.log(data);
+
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
 
 export default function Home() {
   return (
