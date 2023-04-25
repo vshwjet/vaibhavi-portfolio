@@ -58,7 +58,7 @@ function WorkSingle({ work_single }) {
           <h1>{work_item.work_name}</h1>
           <Image
             src={`${work_item.work_thumbnail}`}
-            alt="Menu Icon"
+            alt="Menu Icons"
             width={500}
             height={300}
           />
