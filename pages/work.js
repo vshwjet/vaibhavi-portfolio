@@ -14,7 +14,7 @@ function about() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <Layout>
-    <div className={styles.page_container}>
+    <div className={`${styles.page_container} width`}>
         <Work/>
     </div>
 
