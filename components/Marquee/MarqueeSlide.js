@@ -18,7 +18,7 @@ function Slide({slidename, colour}) {
 function MarqueeSlide() {
   return (
     <>
-      <Marquee speed={50} gradientColor={[249, 248, 248]}>
+      <Marquee speed={50} gradientColor={[255, 255, 255]}>
         <Slide slidename="Thoughtful" colour="#FF7833"/>
         <Image src={flower} alt="Flower" className={styles.slide_flower_purple}/>
         <Slide slidename="Experimental" colour="#6322EB"/>
