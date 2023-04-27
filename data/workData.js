@@ -15,7 +15,7 @@ export const work_data = [
         id: 3,
         work_name : "modern_school",
         work_image : "/static/work/modern_school.png",
-        work_url : "/work/modern_school"
+        work_url : "/work/modernschool"
     },
     {
         id: 4,
