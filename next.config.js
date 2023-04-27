@@ -6,6 +6,6 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-    domains: ["live.staticflickr.com"],
+    domains: ["lh3.googleusercontent.com","drive.google.com"],
   },
 }

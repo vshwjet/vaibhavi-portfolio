@@ -1,0 +1,36 @@
+.work_link {
+
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+.work_link p {
+    font-family: 'Graphik';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #242424;
+
+    padding: 2rem 10rem;
+
+}
+
+.work_link a {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1024px) {
+    .work_link a {
+        word-wrap: break-word;
+    }
+    .work_link p {
+        padding: 2rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 412px) {}

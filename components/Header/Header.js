@@ -16,19 +16,22 @@ function Header() {
   return (
     <>
       <div className={`${styles.header_container} width`}>
+      <Link href="/">
+
         <div className={styles.logo}>
           <Image src={logo} alt="Vice Versa Logo" />
         </div>
+        </Link>
         <div className={`${styles.navigation} ${showMenu ? `${styles.bring_menu}` : ""}`}>
             <ul>
               <li>
-                <Link href="/">about</Link>
+                <Link href="/about">about</Link>
               </li>
               <li>
-                <Link href="/">work</Link>
+                <Link href="/work">work</Link>
               </li>
               <li>
-                <Link href="/">contact</Link>
+                <Link href="/contact">contact</Link>
               </li>
             </ul>
         </div>

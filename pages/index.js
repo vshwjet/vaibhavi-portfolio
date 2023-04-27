@@ -6,19 +6,13 @@ import Info from '../components/Info/Info';
 import Work from '../components/Work/Work';
 import Cta from '../components/CTA/Cta';
 import Footer from '../components/Footer/Footer';
-import { MongoClient } from 'mongodb';
+import Layout from '../components/Layout/Layout';
+import flow_pattern from "../assets/flow.svg"
+import Image from 'next/image';
 
-export async function getStaticProps(context) {
 
-  const mongoClient =  new MongoClient('mongodb+srv://vaibhaviportfolio:1JyDN06JZaL154DY@cluster0.jyulll4.mongodb.net/?retryWrites=true&w=majority');
-  const data = await mongoClient.db('vaibhavi').collection('work').find({}).toArray;
 
-  console.log(data);
 
-  return {
-    props: {}, // will be passed to the page component as props
-  }
-}
 
 export default function Home() {
   return (
@@ -28,9 +22,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className='header-main'>
-        <Header />
-      </section>
+      <Layout>
+
       <section className='hero-main'>
         <Hero />
       </section>
@@ -39,17 +32,17 @@ export default function Home() {
       </section>
       <section className='work-main'>
         <Work />
+        <Image className={styles.flow_pattern_work} src={flow_pattern} alt="Flow Pattern" />
+
       </section>
       <section className='cta-main'>
         <Cta />
       </section>
-      <section className='cta-main'>
-        <Footer />
-      </section>
 
-      <footer>
+      </Layout>
+      
 
-      </footer>
+      
     </div>
   )
 }
