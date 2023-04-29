@@ -19,9 +19,8 @@ function aura() {
   return (
     <>
       <Head>
-        <title>viceversa - about</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+        <title>viceversa - aura</title>
+        <link rel="icon" href="/vector.png" />      </Head>
       <Layout>
         <section>
           <div className={`work_page_container width`}>

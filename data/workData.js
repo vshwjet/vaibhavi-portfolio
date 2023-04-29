@@ -53,10 +53,4 @@ export const work_data = [
         work_image : "/static/work/Radiance.png",
         work_url : "/work/radiance"
     },
-    {
-        id: 10,
-        work_name : "jk",
-        work_image : "/static/work/JK.png",
-        work_url : "/work/jk"
-    },
 ]

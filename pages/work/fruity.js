@@ -20,8 +20,7 @@ function fruity() {
     <>
       <Head>
         <title>viceversa - fruity</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+        <link rel="icon" href="/vector.png" />      </Head>
       <Layout>
         <section>
           <div className={`work_page_container width`}>

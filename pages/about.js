@@ -11,8 +11,7 @@ function about() {
     <>
       <Head>
         <title>viceversa - about</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+        <link rel="icon" href="/vector.png" />      </Head>
       <Layout>
       <section>
 

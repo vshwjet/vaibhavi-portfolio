@@ -19,8 +19,8 @@ function Footer() {
           </ul>
         </div>
         <div className={styles.footer_social}>
-          <Link href={`/`}><Image src={linkedin} alt="LinkedIn logo"/></Link>
-          <Link href={`/`}><Image src={behance} className={styles.behance} alt="Behance logo"/></Link>
+          <a target="_blank" href={`https://www.linkedin.com/in/vaibhavi-joshi-6948a01b7/`}><Image src={linkedin} alt="LinkedIn logo"/></a>
+          <a target="_blank" href={`https://www.behance.net/vj5140340c`}><Image src={behance} className={styles.behance} alt="Behance logo"/></a>
         </div>
       </div>
     </div>

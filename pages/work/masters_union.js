@@ -10,9 +10,8 @@ function masters_union() {
     return (
         <>
           <Head>
-            <title>viceversa - about</title>
-            <link rel="icon" href="/favicon.ico" />
-          </Head>
+            <title>viceversa - masters union</title>
+            <link rel="icon" href="/vector.png" />          </Head>
           <Layout>
           <section>
     

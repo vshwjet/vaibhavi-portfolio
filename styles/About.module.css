@@ -13,7 +13,8 @@
     font-size: 23px;
     line-height: 140%;
     margin-top: 1rem;
-    width: 800px;
+    width: 700px;
+    padding-left: 2rem;
 }
 
 .about_row {
@@ -50,7 +51,7 @@
         padding-bottom: 2rem;
     }
     .about_text {
-        
+        padding-left: 0rem;
         width: 100%;
         order: 2;
     }
