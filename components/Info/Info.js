@@ -17,7 +17,7 @@ function Info() {
                     <br/>
                 Let's design products that make your competitors green with envy and take on the world together!</p>
                 <div className={styles.info_cta}>
-                <Link href="/">work with me</Link>
+                <a target="_blank" href="https://clfnf3raxkn.typeform.com/to/Z0bjocZI?typeform-source=admin.typeform.com">work with me</a>
 
                 </div>
             </div>

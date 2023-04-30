@@ -20,15 +20,15 @@ function MarqueeSlide() {
     <>
       <Marquee speed={50} gradientColor={[255, 255, 255]}>
         <Slide slidename="Thoughtful" colour="#FF7833"/>
-        <Image src={flower} alt="Flower" className={styles.slide_flower_purple}/>
+        <Image src={flower} alt="Flower" className={styles.slide_flower_orange}/>
         <Slide slidename="Experimental" colour="#6322EB"/>
-        <Image src={flower} alt="Flower" className={styles.slide_flower_orange}/>
+        <Image src={flower} alt="Flower" className={styles.slide_flower_purple}/>
         <Slide slidename="Progressive" colour="#FF7833"/>
-        <Image src={flower} alt="Flower" className={styles.slide_flower_purple}/>
-        <Slide slidename="Thoughtful" colour="#6322EB"/>
         <Image src={flower} alt="Flower" className={styles.slide_flower_orange}/>
-        <Slide slidename="Thoughtful" colour="#FF7833"/>
+        <Slide slidename="Disruptive" colour="#6322EB"/>
         <Image src={flower} alt="Flower" className={styles.slide_flower_purple}/>
+        <Slide slidename="Determined" colour="#FF7833"/>
+        <Image src={flower} alt="Flower" className={styles.slide_flower_orange}/>
       </Marquee>
     </>
   );

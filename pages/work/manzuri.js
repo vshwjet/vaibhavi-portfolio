@@ -51,9 +51,6 @@ function manzuri() {
               image_src={`https://lh3.googleusercontent.com/drive-viewer/AFGJ81qeC21HyOwkeZ0XEKDwBxU78ZnVEgEoo78k0oSPrB53MD69S7N1n4NiK7cCDo1Yl-IDZeq6zSEv6xzoUYvKj7jWcAAI=s1600`}
             />
             <WorkImage
-              image_src={`https://lh3.googleusercontent.com/drive-viewer/AFGJ81qeC21HyOwkeZ0XEKDwBxU78ZnVEgEoo78k0oSPrB53MD69S7N1n4NiK7cCDo1Yl-IDZeq6zSEv6xzoUYvKj7jWcAAI=s1600`}
-            />
-            <WorkImage
               image_src={`https://lh3.googleusercontent.com/drive-viewer/AFGJ81rIO5kcgp0VlxrPybv2ql1y6GppVGJ8ToN8vJQdXEVky1DnFRkToX4WOP88z--TGk-klcBbW5IYFe0DEu2QDJw08Y9n_w=s1600`}
             />
 

@@ -4,7 +4,8 @@ import Link from "next/link";
 import React from "react";
 import Layout from "../components/Layout/Layout";
 import styles from "../styles/About.module.css";
-import about_image_1 from "../assets/about_image_1.png";
+import about_1 from "../assets/about_1.png";
+import about_2 from "../assets/about_2.png";
 
 function about() {
   return (
@@ -19,7 +20,7 @@ function about() {
 
               <div className={styles.about_row}>
                 <div className={styles.about_image_1}>
-                  <Image src={about_image_1} alt={`About Page Image 1`} />
+                  <Image src={about_2} alt={`About Page Image 1`} />
                 </div>
                 <div className={styles.about_text}>
                   <p>
@@ -50,12 +51,12 @@ Whether designing a new logo or creating a viral social media campaign, I bring 
                   <br />
                     <br />
                     <div className={styles.about_cta}>
-                <Link href="/">Let’s work together</Link>
+                <a href="https://clfnf3raxkn.typeform.com/to/Z0bjocZI?typeform-source=admin.typeform.com">Let’s work together</a>
 
                 </div>
                 </div>
                 <div className={styles.about_image_1}>
-                  <Image src={about_image_1} alt={`About Page Image 1`} />
+                  <Image src={about_1} alt={`About Page Image 1`} />
                 </div>
               </div>
           </div>

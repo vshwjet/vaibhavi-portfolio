@@ -23,7 +23,7 @@ function Cta() {
               opportunities.
             </p>
             <div className={styles.cta_button}>
-              <Link href="/">work with me</Link>
+              <a href="https://clfnf3raxkn.typeform.com/to/Z0bjocZI?typeform-source=admin.typeform.com">work with me</a>
             </div>
           </div>
         </div>
